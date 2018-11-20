@@ -8,5 +8,7 @@ const message = 'Brawo! Każdy je lubi';
 input.addEventListener('input', (e) => {
     if (password === e.target.value) {
         div.textContent = message;
+    } else {
+        div.textContent = 'Spróbuj jeszcze raz';
     }
 })
